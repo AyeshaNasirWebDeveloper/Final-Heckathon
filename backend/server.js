@@ -20,7 +20,7 @@ app.use('/api/users', require('./routes/users'));
 
 // Default route
 app.get('/', (req, res) => {
-  res.send('Task Tracker API');
+  res.send('Hosted on Railway Successfully!');
 });
 
 // Connect to MongoDB
