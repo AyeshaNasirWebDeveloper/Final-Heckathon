@@ -1,14 +1,9 @@
 {
-  "name": "client",
+  "name": "frontend",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-<<<<<<< HEAD
     "start": "vite",
     "build": "vite build",
-=======
->>>>>>> 7a912b2ae05edfd5216c58cd8cfff9d03513a469
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
