@@ -1,9 +1,17 @@
 import { useState, useContext, useEffect } from 'react';
+<<<<<<< HEAD
 // import { DragDropContext } from 'react-beautiful-dnd';
 import { TaskContext } from '../context/TaskContext';
 import { AuthContext } from '../context/AuthContext';
 import { getUsers } from '../services/api';
 // import { DragIndicator as DragIndicatorIcon } from '@mui/icons-material';
+=======
+import { DragDropContext } from 'react-beautiful-dnd';
+import { TaskContext } from '../context/TaskContext';
+import { AuthContext } from '../context/AuthContext';
+import { getUsers } from '../services/api';
+import { DragIndicator as DragIndicatorIcon } from '@mui/icons-material';
+>>>>>>> 7a912b2ae05edfd5216c58cd8cfff9d03513a469
 import {
   Container,
   Grid,
@@ -23,6 +31,10 @@ const Dashboard = () => {
     doneTasks,
     loading,
     error,
+<<<<<<< HEAD
+=======
+    moveTask,
+>>>>>>> 7a912b2ae05edfd5216c58cd8cfff9d03513a469
     refreshTasks
   } = useContext(TaskContext);
   const { user } = useContext(AuthContext);

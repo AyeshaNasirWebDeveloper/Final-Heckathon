@@ -25,7 +25,11 @@ app.get('/', (req, res) => {
 
 // Connect to MongoDB
 mongoose
+<<<<<<< HEAD
   .connect(process.env.MONGO_URL)
+=======
+  .connect(process.env.MONGO_URI)
+>>>>>>> 7a912b2ae05edfd5216c58cd8cfff9d03513a469
   .then(() => {
     console.log('Connected to MongoDB');
     // Start server
